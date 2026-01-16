@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dielectro Manchego - Página en mantenimiento</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+        html,body {height:100%;}
+        body {display:flex;flex-direction:column;min-height:100vh;background:#f8f9fa;color:#333;}
+        .header-img {max-height:100px;margin:20px auto;}
+        .main {flex:1;display:flex;align-items:center;justify-content:center;padding:30px 15px;}
+        .card {background:#fff;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.08);padding:30px;max-width:900px;width:100%;}
+        h1.page-title {font-weight:700;margin-bottom:20px;font-size:28px;}
+        .lead-large {font-size:20px;line-height:1.5;}
+        @media (min-width:768px){ h1.page-title{font-size:34px;} .lead-large{font-size:22px;} }
+        .footer {padding:20px 0;text-align:center;color:#777;font-size:13px;}
+    </style>
+</head>
+<body>
+    <header class="container text-center">
+        <img src="images/dimae_conjunto_izq.png" alt="Dielectro Manchego" class="img-responsive header-img center-block">
+        <hr>
+    </header>
+
+    <main class="main container">
+        <div class="card text-center">
+            <h1 class="page-title" data-ui-id="page-title-wrapper">Página en mantenimiento</h1>
+            <p class="lead-large"><strong>¡Volvemos pronto!</strong></p>
+            <p class="lead-large">Seguimos atendiendo con normalidad a través del resto de nuestros canales para minimizar cualquier molestia. <strong>¡Gracias por tu comprensión!</strong></p>
+            <p class="lead-large">Estamos realizando mejoras en nuestra web para ofrecerte una mejor experiencia.</p>
+            <p class="lead-large">Durante este fin de semana la página estará temporalmente fuera de servicio <strong>desde el viernes a las 18:00 hasta el domingo a las 09:00</strong>.</p>
+            <p class="lead-large">Si necesitas cualquier cosa, estamos a tu disposición a través de nuestras otras vías de contacto. ¡No dudes en escribirnos!</p>
+            <p class="lead-large"><strong>Gracias por tu paciencia y confianza</strong></p>
+		<br><br><hr>
+<a href="https://www.dimae.com">Reintentar volver a DIMAE</a>
+
+ 
+        </div>
+    </main>
+
+    <footer class="footer container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p>¿Necesitas ayuda? Contáctanos por teléfono o email. © Dielectro Manchego</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery + Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
